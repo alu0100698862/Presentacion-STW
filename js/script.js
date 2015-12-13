@@ -26,5 +26,4 @@ $(document).ready(function() {
   $("#mostrar1").click(function(e){
     $("#logo1").fadeIn(2000);
   });
-
 });

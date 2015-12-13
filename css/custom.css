@@ -13,12 +13,16 @@ h1 {
   color:white;
 }
 
+p {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
 #boton {
   text-align: center;
   margin-top: 50px;
   margin-left: 50px;
 }
-
 
 #foot {
   background-color:#64b5f6;
@@ -31,20 +35,12 @@ h1 {
   color:white;
 }
 
-.nav-wrapper {
-
-  background-color:#40c4ff;
-
-}
-
-p {
-
-  margin-bottom: 20px;
-  font-size: 25px;
-}
-
 #eleccion {
-
   margin-left: 500px;
   margin-right: 500px;
+}
+
+
+.nav-wrapper {
+  background-color:#40c4ff;
 }
