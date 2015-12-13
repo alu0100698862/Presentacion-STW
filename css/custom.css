@@ -1,0 +1,13 @@
+body {
+  background-image: url("../images/img.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+button {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 50px;
+}

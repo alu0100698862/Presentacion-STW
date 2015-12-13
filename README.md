@@ -26,17 +26,18 @@ Accedemos al path de descargar, en donde procedemos a su descarga con el comando
 
  `curl http://code.jquery.com/jquery-1.11.3.js -o js/jquery.js`
 
- Y, finalmente, incluir en nuestro documento HTML la siguiente línea en la zona de <head>
+ Y finalmente, incluir en nuestro documento HTML la siguiente línea en la zona de **head**
 
  `<script src="js/script.js" type="text/javascript"></script>`
 
 ### A partir de un CDN
 
- Para incluir en nuestro proyecto jQuery a través de un CDN, debemos incluir en nuestro documento HTML la siguiente línea en la zona de <head>
+ Para incluir en nuestro proyecto jQuery a través de un CDN, debemos incluir en nuestro documento HTML la siguiente línea en la zona de **head**
 
- `<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>`
-
-`<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>`
+ ```
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+```
 
 ### Instalación a través del gestor de dependencias Bower
 
@@ -45,3 +46,9 @@ En el caso de que tengamos instalado en nuestro sistema `npm`, podemos instalar 
 `bower install jquery`
 
 Y, se nos generaría dentro del directorio `node_modules`, un nuevo directorio denominado `bower_components/jquery` que contendría dicho fichero.
+
+## API jQuery
+
+La API de jQuery provee una amplia variedad de eventos que hacen posible modificar los documentos HTML, gestionar eventos, animación y gestión AJAX de una forma sencilla.
+
+[API jQuery](http://api.jquery.com/)
