@@ -28,26 +28,26 @@ $(document).ready(function() {
   });
 
   $("#down01").click(function(event) {
-			$("#logo4").slideDown();
-		});
+    $("#logo4").slideDown();
+  });
 
-	$("#down02").click(function(event) {
-		$("#logo4").slideDown(4000);
-	});
+  $("#down02").click(function(event) {
+    $("#logo4").slideDown(4000);
+  });
 
   $("#up01").click(function(event) {
-		$("#logo4").slideUp();
-	});
+    $("#logo4").slideUp();
+  });
 
   $("#up02").click(function(event) {
-		$("#logo4").slideUp(4000);
-	});
+    $("#logo4").slideUp(4000);
+  });
 
   $("#toggle01").click(function(event) {
-		$("#logo5").slideToggle();
-	});
+    $("#logo5").slideToggle();
+  });
 
-	$("#toggle02").click(function(event) {
-		$("#logo5").slideToggle(4000);
-	});
+  $("#toggle02").click(function(event) {
+    $("#logo5").slideToggle(4000);
+  });
 });
