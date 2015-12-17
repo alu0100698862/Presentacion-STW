@@ -57,6 +57,8 @@ La API de jQuery provee una amplia variedad de eventos que hacen posible modific
 
 jQuery lo podemos usar para múltiples tareas como pueden ser las animaciones. En este tutorial se destacarán varios procedimientos propios de jQuery que nos permitirán animar nuestra web.
 
+[Web-Presentación](http://alu0100698862.github.io/Presentacion-STW/)
+
 ## Procedimientos de jQuery utilizados:
 
 ### Efecto: animate()  
