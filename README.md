@@ -127,7 +127,17 @@ SlideUp: Oculta un elemento con el efecto de deslizamiento (acordeón).
 * .slideUp(4000);
 
 
+### Efecto: slideToggle()
 
+Muestra y/o oculta un elemento usando un efecto de deslizamiento.
+
+**Sintáxis:** .slideToggle([speed] [,easing] [,callback])
+
+**speed:** (opcional) Velocidad de la duración del efecto en milisengundos. También pueden pasarse los valores ‘fast‘ y ‘slow‘. por defecto 400.
+
+**easing:** (opcional) Velocidad de la animación en diferentes puntos de la misma. El valor por defecto es ‘swing‘  (movimiento rápido al principio y final y lento por el medio de la animación), en cambio el valor ‘linear‘ ofrece una animación constante sin cambios de velocidad.
+
+**callback:** (opcional) Función/acción que se ejecutará cuando el efecto se haya completado.
 
 * .slideToggle();
 * .slideToggle(4000);
